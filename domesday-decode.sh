@@ -102,4 +102,11 @@ if [ "$NATIONALB" = "true" ]; then ld-decode /mnt/md0/SFTP/simoninns/LDV4300D_1\
 if [ "$COMMN" = "true" ]; then ld-decode /mnt/md0/SFTP/simoninns/LDV4300D_1\ Captures/AIV/StephenNeal/Domesday\ Community_CAV_PAL_side1_SN_North_2020-02-15_15-43-58.ldf /mnt/md0/Decodes/autoAIV/CommunityN/stephends1_commN $STANDARD --start 325 $TESTSWITCH ; fi
 if [ "$COMMS" = "true" ]; then ld-decode /mnt/md0/SFTP/simoninns/LDV4300D_1\ Captures/AIV/StephenNeal/Domesday\ Community_CAV_PAL_side2_SN_South_2020-02-15_16-22-27.ldf /mnt/md0/Decodes/autoAIV/CommunityS/stephends1_commS $STANDARD --start 302 $TESTSWITCH ; fi
 
+# PeterA DS1
+echo "Decoding PeterA DS1..."
+if [ "$NATIONALA" = "true" ]; then ld-decode /mnt/md0/SFTP/iansmallshire/PeterArmstrongMaterial/LDF/NationalA_Plus_Armstrong_CAV_PAL_side1_2020-08-03_10-23-04.ldf /mnt/md0/Decodes/autoAIV/NationalA/peterads1_nationalA $STANDARD --start 298 $TESTSWITCH ; fi
+if [ "$NATIONALB" = "true" ]; then ld-decode /mnt/md0/SFTP/iansmallshire/PeterArmstrongMaterial/LDF/NationalB_Plus_Armstrong_CLV_PAL_2020-08-03_17-23-28.ldf /mnt/md0/Decodes/autoAIV/NationalB/peterads1_nationalB $STANDARD --start 215 $TESTSWITCH ; fi
+if [ "$COMMN" = "true" ]; then ld-decode /mnt/md0/SFTP/iansmallshire/PeterArmstrongMaterial/LDF/CommunityNorth_Plus_Armstrong_CAV_PAL_2020-08-03_11-00-45.ldf /mnt/md0/Decodes/autoAIV/CommunityN/peterads1_commN $STANDARD --start 336 $TESTSWITCH ; fi
+if [ "$COMMS" = "true" ]; then ld-decode /mnt/md0/SFTP/iansmallshire/PeterArmstrongMaterial/LDF/CommunitySouth_Plus_Armstrong_CAV_PAL_2020-08-03_16-44-30.ldf /mnt/md0/Decodes/autoAIV/CommunityS/peterads1_commS $STANDARD --start 326 $TESTSWITCH ; fi
+
 
