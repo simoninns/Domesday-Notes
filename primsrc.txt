@@ -1,0 +1,5 @@
+NationalA - simonds4 (simonds2,simonds5, stephends1)
+NationalB - peterds1 (simonds4, simonds1, iands2)
+CommunityN - iands2 (iands1, simonds3, simonds4)
+CommunityS - iandds1 (iands2, simonds4, peterds1)
+
